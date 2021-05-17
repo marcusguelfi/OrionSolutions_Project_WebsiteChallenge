@@ -1,0 +1,160 @@
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+body{
+background-color: #232d36;
+box-sizing: border-box;
+display: flex;
+}
+html {
+	scroll-behavior: smooth;
+}
+header img {
+		margin-top: 0.5em;
+}
+header{
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 20%;
+}
+header a {
+	transition: 300ms;
+}
+header a:hover{
+	font-size: 150%;
+}
+ul{
+  margin-left: 20%;
+}
+.menu li{
+ float: left;
+ padding: 1em;
+ margin-bottom: 1.2em;
+ margin-top: 1.5em ;
+ margin-left: 5%;
+ font-size: 1.3em;
+ list-style: none;
+ text-decoration: none;
+ color: white;
+ letter-spacing: 0.1em;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+	font-size: 1.5em;
+}
+
+.b2w a{
+  text-decoration: underline;
+  color: white;
+}
+.logo_b2w{
+ float: left;
+ height: 10%;
+ width: 10%;
+}
+.challenge{
+  font-size: 1.5em;
+  color: white;
+  text-align: justify;
+}
+figcaption{
+	font-size: 0.7em;
+}
+.challenge figcaption{
+    margin-left: 74%;
+}
+.LogoB2wFiap{
+  height: auto;
+  width: 65%;
+  margin-left: 18%;
+  margin-top: 5%;
+}
+.problema{
+  font-size: 1.5em;
+  color: white;
+  text-align: justify;
+}
+.grafico_ELTV{
+  height: auto;
+  width: 65%;
+  margin-left: 18%;
+  margin-top: 5%;
+}
+.problema figcaption{
+    margin-left: 65%;
+    margin-bottom: 3%;
+}
+.b2w{
+  font-size: 1.5em;
+  color: white;
+  text-align: justify;
+  margin-bottom: 10%;
+}
+.solucao{
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+	margin-top: 5%;
+}
+.problema figure{
+    margin-bottom: 5%;
+}
+button:hover{
+  background-color: #02d1ae;
+  transition: 460ms;
+}
+button{
+  background-color: #00ebc3;
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 1.5em;
+  width: 35%;
+  height: 30%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer p{
+  text-align: center;
+  color: white;
+  margin-top: -6%;
+  margin-right: 5.5em;
+}
+.logo_orion{
+  float: right;
+  height: 10%;
+  width: 10%;
+  margin-top: -10%;
+}
+.logo_b2w footer{
+  float: none;
+	height: 5%;
+  width: 5%;
+}
+footer{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+@media (max-width:667px){
+	.menu li{
+		margin-left: 4%;
+	}
+}
+
+@media (max-width:656px){
+	.menu li{
+		margin-left: 5%;
+	}
+}
+
+@media (max-width:556px){
+	.menu li{
+		margin-left: 4%;
+	}
+}

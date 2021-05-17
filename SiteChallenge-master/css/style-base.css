@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+h1,h2,h3{
+  margin: 20px 0px;
+}
+.container{
+  margin: auto;
+  width: 90%;
+}
+
+@media (max-width: 1387px){
+  body{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:1248px){
+  body{
+    font-size: 16px;
+  }
+}
+
+@media (max-width:1110px){
+  body{
+    font-size: 13px;
+  }
+}
+
+@media (max-width:902px){
+  body{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:656px){
+  body{
+    font-size: 10px;
+  }
+}
+
+@media (max-width:547px){
+  body{
+    font-size: 8px;
+  }
+}
+
+@media (max-width:437px){
+  body{
+    font-size: 7px;
+  }
+}
+
+@media (max-width:383px){
+  body{
+    font-size: 6px;
+  }
+}
+
+@media (max-width:328px){
+  body{
+    font-size: 5.5px;
+  }
+}
